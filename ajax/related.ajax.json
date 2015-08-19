@@ -1,0 +1,16 @@
+{
+	"items" : [
+		{
+			"item" : { "html": "<figure class=\"portal0 hor\"><a href=\"#\"><img src=\"img/tmp/related1.jpg\" alt=\"\" width=\"169\" height=\"127\" /><figcaption><i><span>Advent dit is nog meer tekst om te kijken hoe die zich gedraagd </span></i></figcaption></a></figure>" }
+		}, {
+			"item" : { "html": "<figure class=\"portal1 ver\"><a href=\"#\"><img src=\"img/tmp/related1.jpg\" alt=\"\" width=\"127\" height=\"169\" /><figcaption><i><span>Advent </span></i></figcaption></a></figure>" }
+		}, {
+			"item" : { "html": "<figure class=\"portal2 ver\"><a href=\"#\"><img src=\"img/tmp/related1.jpg\" alt=\"\" width=\"127\" height=\"169\" /><figcaption><i><span>Advent </span></i></figcaption></a></figure>" }
+		}, {
+			"item" : { "html": "<figure class=\"portal0 hor\"><a href=\"#\"><img src=\"img/tmp/related1.jpg\" alt=\"\" width=\"169\" height=\"127\" /><figcaption><i><span>Advent </span></i></figcaption></a></figure>" }
+		}
+	],
+	"page" : "0",
+	"prev" : "false",
+	"next" : "true"
+}

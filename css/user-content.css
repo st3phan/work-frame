@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+	/*
+	* User-content
+	* Author: Stephan van Opstal, Netvlies
+	* Date: 2011.02.16
+	*/
+	
+	.user-content {  margin: 0; padding: 0; font:13px/1.231 sans-serif; *font-size:small; }
+	.user-content h2, .user-content h3, .user-content h4 { float: none; clear: both; font-family: Neuzeit,sans-serif; color: #2e2a28!important; margin: 15px 0 0 0; padding: 0 0 0 20px; font-weight: normal; letter-spacing: 0.25pt; }
+	.user-content h2 { font-size: 197%; }
+	.user-content h3 { font-size: 153.9%; }
+	.user-content h4 { font-size: 138.5%; }
+
+
+	.user-content p { float: none; clear: both; font-size: 108%; margin: 15px 0 0 0; padding: 0; color: #4d4845; line-height: 131%; }
+	.user-content blockquote { margin: 0 0 15px 0; color: #000; font-size: 123.1%; line-height: 123.1%; font-style: italic; }
+	.user-content strong, .user-content b { font-weight: bold; }
+	.user-content i, .user-content em { font-style: italic; }
+
+	.user-content ul { overflow: hidden; zoom: 1; margin: 15px 0 0 0; padding-left: 20px; }
+	.user-content ol { overflow: hidden; zoom: 1; margin: 15px 0 0 0; padding-left: 25px; }
+	.user-content ol ol, .user-content ol ul, .user-content ul ul, .user-content ul ol { margin-bottom: 0; }
+	.user-content ul li { font-size: 108%; line-height: 131%; padding: 2px 0 2px 0; color: #4d4845; list-style: square; }
+	.user-content ol li { font-size: 14px; line-height: 131%; padding: 2px 0 2px 0px; color: #4d4845; list-style: decimal; list-style-position: outside; }
+
+	.user-content a { color: #ff2d71; text-decoration: none; }	
+	.portal0 .user-content a { color: #ff2d71; }
+	.portal1 .user-content a { color: #00a186; }
+	.portal2 .user-content a { color: #00a3c8; }
+		
+	.user-content a:hover { background: #ff2d71; color: #fff; }
+	.portal0 .user-content a:hover { background: #ff2d71; color: #fff; }
+	.portal1 .user-content a:hover { background: #00b395; color: #fff; }
+	.portal2 .user-content a:hover { background: #00b6df; color: #fff; }
+	
+	.user-content img { border: 1px solid #fff; }
+	.user-content img.imgLeft { float: left; margin: 2px 10px 0 0; }
+	.user-content img.imgRight { float: right; margin: 2px 10px 0 0; }
+
+	.user-content table { margin: 20px 0 0 1px; border: none; border-collapse: collapse; border-spacing: 0;  }
+	.user-content tr { height: 28px; line-height: 28px; }
+	.user-content td { font-family: sans-serif; font-size: 13px; color: #363631; padding: 0 6px; border-bottom: 1px solid #e5e1df; border-right: 1px solid #e5e1df; }
+	.user-content td:last-child { border-right: none; }
+	.user-content tr:last-child td { border-bottom: none; }
+	.user-content tr:nth-child(even) td {  }
+	.user-content thead td { font-weight: bold; color: #000; background: #e5e1df; border-right: 1px solid #fff; }
+	.user-content table.noborder td { border-bottom: 0; border-right: 0; }

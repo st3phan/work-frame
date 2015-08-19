@@ -1,0 +1,298 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!--
+	Ontwikkeld door:	Netvlies Internetdiensten
+	Email:				info@netvlies.nl
+	Internet:			http://www.netvlies.nl
+	Telefoonnummer:		076 5302525
+	-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="author" content="Netvlies Internetdiensten" />
+
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+	<link rel="stylesheet" href="css/screen.css?v=1" />
+	<link rel="stylesheet" href="css/user-content.css" />
+
+	<script src="js/modernizr-1.7.min.js"></script>
+
+</head>
+<!-- LET OP: Frame = 'portal0', Mark = 'portal1', Elephant = 'portal2' -->
+<!-- LET OP: Standaard staan alle kleuren op die van Frame, dus roze -->
+<body class="portalX">
+
+	<div id="header">
+
+		<section id="ads-page-top">
+			<div class="ad-leaderboard"></div>
+		</section>
+
+		<nav id="nav-main">
+			<div class="nav-wrapper">
+
+				<h1><a href="index.html"><span class="icon">Frame Publishers</span></a></h1>
+
+				<!-- Wanneer het submenu getoond moet worden de class 'showsub' aan de <ol> meegegeven en de betreffende .sub de class 'show' meegegeven -->
+				<ol class="cf showsub">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="news.html" class="hassub">News<span class="icon"></span></a></li>
+					<li><a href="agenda.html" class="hassub">Agenda<span class="icon"></span></a></li>
+					<!-- LET OP: items met subnavigatie krijgen 'hassub' op de <a> en hebben een <span class="icon" /> -->
+					<li><a href="magazines.html" class="hassub selected">Magazines<span class="icon"></span></a>
+						<div class="sub show">
+							<div class="sub-wrapper">
+								<ol>
+									<!-- LET OP: speciale class 'portal[X]' op items met een magazine-->
+									<li class="portal0"><a href="magazine.html">Frame</a></li>
+									<li class="portal1"><a href="magazine.html" class="selected">Mark</a></li>
+									<li class="portal2"><a href="magazine.html">Elephant</a></li>
+									<li><a href="magazine.html">Subscriptions</a></li>
+									<li><a href="magazine.html">Search back issue</a></li>
+									<li><a href="magazine.html">Where to buy</a></li>
+								</ol>
+							</div><!--/sub-wrapper-->
+						</div><!--/sub-->
+					</li>
+					<li><a href="shopping-cart-1.html" class="hassub">Books<span class="icon"></span></a>
+						<div class="sub">
+							<div class="sub-wrapper">
+								<ol>
+									<li><a href="#">Where to buy</a></li>
+								</ol>
+							</div><!--/sub-wrapper-->
+						</div><!--/sub-->
+					</li>
+					<li><a href="store.html" class="hassub">Store<span class="icon"></span></a>
+						<div class="sub">
+							<div class="sub-wrapper">
+								<ol>
+									<li class="portal0"><a href="store-detail.html">Frame</a></li>
+									<li class="portal1"><a href="store-detail.html">Mark</a></li>
+									<li class="portal2"><a href="store-detail.html">Elephant</a></li>
+									<li><a href="subscriptions.html">Subscriptions</a></li>
+									<li><a href="store-detail.html">Books</a></li>
+								</ol>
+							</div><!--/sub-wrapper-->
+						</div><!--/sub-->
+					</li>
+					<li><a href="search-results.html" class="hassub">Service<span class="icon"></span></a>
+						<div class="sub">
+							<div class="sub-wrapper">
+								<ol>
+									<li><a href="#">Contact</a></li>
+									<li><a href="#">About us</a></li>
+									<li><a href="#">Advertise</a></li>
+									<li><a href="#">Newsletter</a></li>
+									<li><a href="#">FAQ</a></li>
+								</ol>
+							</div><!--/sub-wrapper-->
+						</div><!--/sub-->
+					</li>
+				</ol>
+
+			</div><!--/nav-wrapper-->
+		</nav><!--/nav-main-->
+
+		<section id="search-bar" class="cf">
+
+			<form id="search" method="post" action="#" class="cf">
+				<label>Search</label>
+				<div class="text">
+					<input type="search" value="" class="search" />
+				</div>
+				<div class="submit">
+					<input type="submit" value="Go" />
+					<div><a href="#"><span class="icon"></span></a></div>
+				</div>
+			</form>
+
+			<section id="login">
+				<ul class="cf">
+					<li class="account"><a href="#" class="root">Welcome Isolde<span class="icon"></span></a>
+						<div class="sub">
+							<ul>
+								<li class="first cf"><a href="#">My account</a></li>
+								<li class="cf"><a href="#">My subscriptions</a></li>
+								<li class="cf"><a href="#">My orders</a></li>
+							</ul>
+						</div><!--/sub-->
+					</li>
+					<li class="login"><a href="#" class="root">Log in <span class="icon"></span></a>
+						<div class="sub">
+							<form method="post" action="#" class="cf">
+								<!-- LET OP: .msg. alleen tonen wanneer er een error optreed, wel de juiste tekst erbij tonen -->
+								<!-- <div class="msg">Your password is incorrect</div> -->
+								<!-- LET OP: .group krijgt de class 'error' bij een foutief ingevuld veld -->
+								<div class="group cf">
+									<label>E-mail</label>
+									<div class="text"><input type="email" name="" value="" /></div>
+								</div>
+								<div class="group cf">
+									<label>Password</label>
+									<div class="text"><input type="password" name="" value="" /></div>
+								</div>
+								<div class="submit">
+									<input type="submit" name="" value="Log in" />
+									<a href="#">Log in</a>
+								</div>
+								<a href="#" class="forgot">Forgot your password?</a>
+							</form>
+						</div><!--/sub-->
+					</li>
+					<li class="cart"><a href="#" class="root">Shopping cart (3)</a></li>
+				</ul>
+			</section>
+
+			<div>
+				<section id="follow-us">
+					<p>Follow us:</p>
+					<ul>
+						<li class="twitter"><span class="root"><span class="icon"></span></span>
+							<div class="sub">
+								<ul>
+									<li class="portal0 first"><a href="#"><span class="icon"></span>Frame Publishers</a></li>
+									<li class="portal1"><a href="#"><span class="icon"></span>Mark</a></li>
+									<li class="portal2"><a href="#"><span class="icon"></span>Elephant</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="facebook"><span class="root"><span class="icon"></span></span>
+							<div class="sub">
+								<ul>
+									<li class="portal0 first"><a href="#"><span class="icon"></span>Frame Publishers</a></li>
+									<li class="portal1"><a href="#"><span class="icon"></span>Mark</a></li>
+									<li class="portal2"><a href="#"><span class="icon"></span>Elephant</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="linkedin"><a href="#" class="root"><span class="icon"></span></a></li>
+						<li class="rss"><a href="#" class="root"><span class="icon"></span></a></li>
+						<li class="newsletter"><a href="#" class="root"><span class="icon"></span>Nieuwsbrief</a></li>
+					</ul>
+				</section>
+			</div>
+
+		</section><!--/search-bar-->
+
+		<nav id="nav-crumbpath">
+			<p>You're here</p>
+			<ol class="cf">
+				<li>&nbsp;/&nbsp;<a href="#">Home</a></li>
+				<li>&nbsp;/&nbsp;News</li>
+			</ol>
+		</nav>
+
+	</div><!--header-->
+
+	<div id="page-wrapper">
+
+		<div id="fold">
+
+			<div id="col-b">
+
+				<h1 class="hdr"><span>Renew subscription</span></h1>
+
+				<div id="renew">
+
+					<div class="user-content">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis ultricies nec.</p>
+					</div>
+
+					<form method="post" action="" class="user-form cf">
+						<ol>
+							<li class="error">
+								<div class="group">
+									<span class="label">Zipcode*</span>
+									<div class="text"><input type="text" name="" value="" /></div>
+								</div>
+								<div class="msg">Error!</div>
+							</li>
+							<li>
+								<div class="group">
+									<span class="label">Discount coupon</span>
+									<div class="text"><input type="text" name="" value="" /></div>
+								</div>
+							</li>
+						</ol>
+						<div class="submit">
+							<input type="submit" name="" value="Continue" />
+							<div class="btn"><a href="#">Continue</a></div>
+						</div>
+						<span class="starred">* Required</span>
+					</form>
+
+				</div><!--/renew-->
+
+			</div><!--/col-b-->
+
+			<aside id="sidebar">
+
+				<!-- LET OP: een cta met de class 'text' krijgt de class 'first' als het de eerste cta is -->
+				<section class="cta text first">
+					<h3 class="hdr"><span>Books</span></h3>
+					<div class="xitem portal0 first">
+						<div class="xitem-inner">
+							<header class="main-header">
+								<h2><a href="#">Grand Stand 3</a></h2>
+								<h4>Design for Trade Fair Stands</h4>
+							</header>
+							<p class="excerpt cf"><img src="img/tmp/book.jpg" alt="" />Following in the steps of Grand Stand and Grand Stand 2, the latest publication in this series, Grand Stand 3, brings readers up to date on developments...</p>
+						</div><!--/xitem-inner-->
+					</div>
+				</section>
+
+				<section class="cta">
+					<div class="cta-inner">
+						<a href="#"><img src="img/tmp/spotlight.jpg" alt="" /></a>
+					</div>
+				</section>
+
+				<section class="cta">
+					<div class="cta-inner">
+						<a href="#"><img src="img/tmp/spotlight.jpg" alt="" /></a>
+					</div>
+				</section>
+
+			</aside><!--/sidebar-->
+
+			<footer>
+				<ul class="cf">
+					<li><a href="#">Terms &amp; conditions</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Sitemap</a></li>
+				</ul>
+			</footer>
+
+		</div><!--/fold-->
+
+	</div><!--/page-wrapper-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.min.js">\x3C/script>')</script>
+	<script src="js/jquery.effects.core.min.js"></script>
+	<script src="js/main.js?v=1"></script>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 7 ]>
+	<script src="js/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+	<![endif]-->
+
+</body>
+</html>
